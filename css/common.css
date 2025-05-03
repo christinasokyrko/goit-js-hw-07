@@ -40,6 +40,12 @@ input:hover {
   border: solid 1px #000000;
 }
 
+input:active {
+  outline: none;
+  box-shadow: none;
+  border: solid 1px #808080;
+}
+
 button {
   cursor: pointer;
   height: 40px;
@@ -150,6 +156,14 @@ label {
 
 #controls > input[type="number"] {
   border-radius: 8px;
+}
+
+#controls > input[type="number"]:hover {
+  border: solid 1px #000000;
+}
+
+#controls > input[type="number"]:active {
+  border: solid 1px #808080;
 }
 
 #controls > button[type="button"] {
